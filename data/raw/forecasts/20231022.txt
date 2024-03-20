@@ -1,0 +1,35 @@
+"C","Seven Day Capacity Forecast Report"
+"C","Filename: seven_day_forecast_20231022_20231021093133000.csv"
+"C","Report for 10/22/2023 - 10/23/2023"
+"C","Report generated 03/19/2024 19:45:31 EDT"
+"H","","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7"
+"D","Day","Sun","Mon","Tue","Wed","Thu","Fri"
+"D","Date","10/22/2023","10/23/2023","10/24/2023","10/25/2023","10/26/2023","10/27/2023"
+"G","Weather"
+"D","High Temperature - Boston",56,57,60,68,66,62
+"D","Dew Point - Boston",51,44,42,51,48,45
+"D","High Temperature - Hartford",55,60,61,69,67,65
+"D","Dew Point - Hartford",40,41,42,50,47,44
+"G","Generating Capacity Position"
+"D","Total Capacity Supply Obligation (CSO)",28378,28378,28378,28378,28378,28378
+"D","Anticipated Cold Weather Outages",0,0,0,0,0,0
+"D","Other Generation Outages",10364,11146,11551,11705,11193,11196
+"D","Anticipated De-List MW Offered",1317,1317,1317,1317,1317,1317
+"D","Total Generation Available",19331,18549,18144,17990,18502,18499
+"D","Import at Time of Peak",3425,3625,3400,3395,3625,3625
+"D","Total Available Generation and Imports",22756,22174,21544,21385,22127,22124
+"D","Projected Peak Load",13750,14250,14250,14000,14000,13750
+"D","Replacement Reserve Requirement",160,160,160,160,160,160
+"D","Required Reserve",2303,2303,2303,2303,2303,2303
+"D","Required Reserve including Replacement",2463,2463,2463,2463,2463,2463
+"D","Total Load plus Required Reserve",16213,16713,16713,16463,16463,16213
+"D","Projected Surplus/(Deficiency)",6543,5461,4831,4922,5664,5911
+"D","Available Demand Response Resources",227,227,227,227,227,227
+"D","Available Real-Time Emergency Generation",,,,,,
+"G","Load Relief Actions Anticipated"
+"D","Power Watch","No","No","No","No","No","No"
+"D","Power Warning","No","No","No","No","No","No"
+"D","Cold Weather Watch","No","No","-","-","-","-"
+"D","Cold Weather Warning","No","No","-","-","-","-"
+"D","Cold Weather Event","No","No","-","-","-","-"
+"T","27 lines"
