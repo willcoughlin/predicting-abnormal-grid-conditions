@@ -8,7 +8,7 @@ base_processed_dir = f"{root_project_dir}/data/processed"
 
 forecasts_file_path = f"{base_intermediate_dir}/forecasts.csv"
 statuses_file_path = f"{base_intermediate_dir}/statuses.csv"
-output_file_path = f"{base_processed_dir}/forecasts_and_statuses.csv"
+output_file_path = f"{base_intermediate_dir}/forecasts_and_statuses.csv"
 
 def format_statuses(status_df: pd.DataFrame) -> pd.DataFrame:
   status_map = {
