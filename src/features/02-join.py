@@ -4,7 +4,6 @@ import pandas as pd
 
 root_project_dir = Path(__file__).resolve().parent.parent.parent
 base_intermediate_dir = f"{root_project_dir}/data/intermediate"
-base_processed_dir = f"{root_project_dir}/data/processed"
 
 forecasts_file_path = f"{base_intermediate_dir}/forecasts.csv"
 statuses_file_path = f"{base_intermediate_dir}/statuses.csv"
@@ -42,7 +41,6 @@ if __name__ == "__main__":
   joined[status_cols] = joined[status_cols].fillna(False)
 
   print("Writing data...")
-  Path(base_processed_dir).mkdir(exist_ok=True, parents=True)
   joined.to_csv(output_file_path)
 
   print("Done.")
