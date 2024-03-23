@@ -55,29 +55,21 @@ The full dataset is included in this repository. If you wish to manually scrape 
    python ./src/features/01-transform.py
    ```
    
-   Likewise, this script may take about 10 minutes or longer. The script will show its progress as it executes:
-   
-   ```
-   Transforming forecast data...
-   Progress: 2555/2555
-   Transforming historical statuses...
-   Progress: 6/6
-   Writing transformed data...
-   Done.
-    ```
+   Likewise, this script may take about 10 minutes or longer. The script will show its progress as it executes.
 
 3. Run the `02-join.py` script in `src/features`:
    ```sh
    python ./src/features/02-join.py
    ```
 
-   This script will execute quickly and show the following output:
+4. Run the `03-clean.py` script in `src/features`:
+     ```sh
+   python ./src/features/03-clean.py
    ```
-   Reading intermediate files...
-   Joining data...
-   Writing data...
-   Done.
-   ```
+
+## Notebooks
+
+* ...
 
 ## TODO
 
