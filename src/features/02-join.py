@@ -20,13 +20,13 @@ def format_statuses(status_df: pd.DataFrame) -> pd.DataFrame:
     "OP4 Action 5": "OP45",
   }
 
-  status_df["Abnormal"] = True
+  status_df["Abnormal"] = 1
 
   statuses = (status_df
               .replace(status_map)
               .pivot(index="Date", columns="Status", values="Abnormal")
-              .fillna(False))
-  statuses["Abnormal"] = True
+              .fillna(0))
+  statuses["Abnormal"] = 1
   return statuses
 
 if __name__ == "__main__":
@@ -38,7 +38,7 @@ if __name__ == "__main__":
   print("Joining data...")
   joined = forecasts.merge(statuses, on="Date", how="left")
   status_cols = ["ACON", "MGEN", "OP41", "OP42", "OP43", "OP44", "OP45", "Abnormal"]
-  joined[status_cols] = joined[status_cols].fillna(False)
+  joined[status_cols] = joined[status_cols].fillna(0)
 
   print("Writing data...")
   joined.to_csv(output_file_path)
