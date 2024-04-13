@@ -67,12 +67,18 @@ The full dataset is included in this repository. If you wish to manually scrape 
    python ./src/features/03-clean.py
    ```
 
+### Prepare Data for Modeling
+
+1. Run the `04-modeling-prep.py` script in `src/features`:
+     ```sh
+   python ./src/features/04-modeling-prep.py
+
 ## Notebooks
 
-* ...
+EDA and modeling were performed in Jupyter Notebooks using the data prepared by the Python scripts. Important notebooks are listed below:
 
-## TODO
-
-* Build off of logistic regression notebook.
-* Try other classification models.
-* Try multiclass models?
+* `eda.ipynb` - Exploratory Data Analysis: correlation, clustering, etc.
+* `logistic.ipynb` - Logistic Regression Model Building
+* `svm.ipynb` - SVM Model Building
+* `knn.ipynb` - KNN Model Building
+* `ensemble.ipynb` - Ensemble Model Building
