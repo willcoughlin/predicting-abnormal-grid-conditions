@@ -1,7 +1,5 @@
 # Predicting Abnormal Grid Conditions
 
-Course project for ISYE 7406 as a part of Georgia Tech's Online Master of Science in Analytics.
-
 ## Prerequisites
 
 ### [Optional] Create and activate virtual environment
